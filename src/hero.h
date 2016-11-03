@@ -1,3 +1,11 @@
+//
+// Created by student on 03.11.16.
+//
+
+#ifndef ARKADYILIN_HERO_H
+#define ARKADYILIN_HERO_H
+
+#endif //ARKADYILIN_HERO_H
 #ifndef HERO_H_INCLUDED
 #define HERO_H_INCLUDED
 
@@ -14,7 +22,7 @@ public:
     static const int default_attackForce = 20;
 
     Hero(int health = default_health, int aForce = default_attackForce)
-        :Unit(health, aForce), scores(0)
+            :Unit(health, aForce), scores(0)
     {}
     void attack (Dragon &drago)
     {

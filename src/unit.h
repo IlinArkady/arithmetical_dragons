@@ -1,3 +1,11 @@
+//
+// Created by student on 03.11.16.
+//
+
+#ifndef ARKADYILIN_UNIT_H
+#define ARKADYILIN_UNIT_H
+
+#endif //ARKADYILIN_UNIT_H
 #ifndef UNIT_H_INCLUDED
 #define UNIT_H_INCLUDED
 
@@ -9,7 +17,7 @@ public:
     int attackForce;
 
     Unit(int start_health, int _attackForce)
-        :health(start_health), attackForce(_attackForce)
+            :health(start_health), attackForce(_attackForce)
     {}
     void getDamage(int damage)
     {

@@ -13,7 +13,7 @@ using namespace std;
 void showHealth(const Hero &hero, const Dragon &dragon)
 {
     cout << "Hero health: " << hero.getHealth()
-        << ", Dragon health: " << dragon.getHealth() << endl;
+    << ", Dragon health: " << dragon.getHealth() << endl;
 }
 
 list<Dragon*> generateDragonList()
@@ -32,7 +32,7 @@ bool playGame(Hero &hero, list<Dragon*> &dragons)
     bool gameOver = false;
 
     for (list<Dragon*>::iterator dragon = dragons.begin();
-            dragon != dragons.end(); dragon++)
+         dragon != dragons.end(); dragon++)
     {
         cout << "You have met a new " << (*dragon)->color() << " dragon. Fight!" << endl;
 
@@ -70,7 +70,7 @@ int main()
         cout << "You win! Your score is: " << hero.getScores() << endl;
     }
     for (list<Dragon*>::iterator dragon = dragons.begin();
-            dragon != dragons.end(); dragon++)
+         dragon != dragons.end(); dragon++)
         delete *dragon;
     return 0;
 }
